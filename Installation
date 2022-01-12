@@ -1,0 +1,25 @@
+Download Anaconda, Tensorflow, Pycharm
+> : command prompt
+
+
+#1. Anaconda
+https://www.anaconda.com/products/individual
+Check "Add Anaconda to the system PATH environment variable"
+> conda                       //to check if it's installed.
+
+tip^ When anaconda is installed, python is automatically installed.
+
+
+#2. Tensorflow
+> conda create --name tf     //make virtual environment
+> active tf                  //active virtual environment
+(tf)> conda install tensorflow
+
+
+#3. Pycharm
+https://www.jetbrains.com/pycharm/download/#section=windows
+
+install Pycharm, and add to Anaconda
+(File -> Setting -> Project: -> Interpreter -> Conda -> Existing environment)
+
+print(tf.__version__)
