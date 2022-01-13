@@ -6,3 +6,10 @@ tensorflow/core/common_runtime/process_util.cc:146] Creating new thread pool wit
 #Solve
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+
+
+
+
+tensorflow v1.x.x v2.x.x
+tf.Session()
+Session definition omitted
